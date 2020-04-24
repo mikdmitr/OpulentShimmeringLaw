@@ -15,6 +15,7 @@ puts "Please provide some information:"
   puts "Number of tickets =>"
   
   #ticketCount = gets.chomp.to_f
+  ticketCount=0
   notCorrectInput=true
   while notCorrectInput
     input = gets.chomp
@@ -37,6 +38,7 @@ puts "Please provide some information:"
   puts "How many servings of cotton candy did they order? =>"
 
   #cottonCandyCount = gets.chomp.to_f
+  cottonCandyCount=0
   notCorrectInput=true
   while notCorrectInput
     input = gets.chomp
@@ -53,6 +55,7 @@ puts "Please provide some information:"
   puts "Small? =>"
 
   #curlyFriesSmallCount = gets.chomp.to_f
+  curlyFriesSmallCount=0
   notCorrectInput=true
   while notCorrectInput
     input = gets.chomp
@@ -68,6 +71,7 @@ puts "Please provide some information:"
   puts "Large? =>"
 
   #curlyFriesLargeCount = gets.chomp.to_f
+  curlyFriesLargeCount=0
   notCorrectInput=true
   while notCorrectInput
     input = gets.chomp
